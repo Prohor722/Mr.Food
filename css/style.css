@@ -1,11 +1,15 @@
-body{
-    background-color: #fdfdfdc5;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 #logo{
     color: #F90716;
 }
-
+#loading{
+    display: none;
+    height: 200px;
+}
 #error{
     background-color: #f58e9556;
     border: 2px solid red;
