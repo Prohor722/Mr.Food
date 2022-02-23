@@ -5,3 +5,11 @@ body{
 #logo{
     color: #F90716;
 }
+
+#error{
+    background-color: #f58e9556;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 20px 50px;
+    display: none;
+}

@@ -14,9 +14,21 @@
     <header>
         <h3 class="text-center mt-5 fw-bold">Mr.<span id="logo">Food</span></h3>
         <div class="input-group mb-3 mx-auto w-50 mt-5">
-            <input type="text" class="form-control" placeholder="Search for the food you want to see...">
+            <input id="item" type="text" class="form-control" placeholder="Search for the food you want to see...">
             <button onclick="loadFood()" class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
         </div>
     </header>
+
+    <main>
+        <div id="error" class="text-center text-danger w-50 mx-auto mt-5">
+            <p>Item not Found !!</p>
+        </div>
+        <div id="cards" class="row row-cols-sm-1  row-cols-md-2 row-cols-lg-3 ms-5 me-5 mt-5"> 
+        </div>
+    </main>
+
+    <footer>
+        <script src="./js/script.js"></script>
+    </footer>
 </body>
 </html>
