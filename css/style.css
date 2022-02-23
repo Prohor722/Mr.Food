@@ -4,15 +4,15 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 #logo{
-    color: #F90716;
+    color: #6bad41;
 }
 #loading{
     display: none;
     height: 200px;
 }
 #error{
-    background-color: #f58e9556;
-    border: 2px solid red;
+    background-color: #68ff0a1a;
+    border: 2px solid #6bad41;
     border-radius: 20px;
     padding: 20px 50px;
     display: none;
