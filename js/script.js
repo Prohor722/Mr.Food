@@ -4,6 +4,7 @@ const loadFood = () =>{
     // console.log(data);
 
     document.getElementById('cards').innerHTML="";
+    document.getElementById('error').style.display="none";
     document.getElementById('loading').style.display="block";
     const foodItem = document.getElementById('item').value;
     
@@ -14,14 +15,12 @@ const loadFood = () =>{
 }
 
 const displayError =(error)=>{
+    document.getElementById('loading').style.display="none";
     document.getElementById('error').style.display="block";
     console.log(error);
 }
 
 const displayMeal = meals =>{
-    
-    // document.getElementById('loading').style.display="block";
-    document.getElementById('error').style.display="none";
     
     for(const meal of meals){
         const parent = document.getElementById('cards');
