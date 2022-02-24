@@ -26,7 +26,7 @@ const displayMeal = meals =>{
         const parent = document.getElementById('cards');
         const div = document.createElement('div');
         div.innerHTML = `
-        <div class="card mt-sm-5 m-md-5 shadow">
+        <div class="card mt-5 m-md-5 shadow">
         <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title">${meal.strMeal}</h5>
